@@ -1,0 +1,79 @@
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif; font-size: 1.2em;
+}
+p.important {
+    font-size: 1.5em;
+}
+p.bold {
+    font-weight: bold ;
+    /* 
+    available option 
+    lighter, normal, bold, and bolder
+    100 through 900. 100, 200, 300 and so on
+    */
+}
+p.italic {
+    font-style: italic;
+}
+p.colour {
+    color: red;
+    /* 
+    color: #cc0000
+     */
+}
+h1 {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 2em;
+}   
+h3.bigger {
+    font-size: 1.1em;
+    }
+.typewriter {
+    font-family: “Courier New”, Courier, monospace;
+}
+.colour {
+    color: darkslategrey;
+}
+.styling {
+    letter-spacing: 1.2em;
+    word-spacing: 2em;
+    line-height: 1em;
+}
+.alignment{
+    text-align: center;
+    text-align: justify;
+    text-indent: 0;
+}
+.margin {
+    margin: 2em 2em 2em 2em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.borders {
+    /* dotted, dashed, solid, double, groove, ridge, inset, outset */
+    border-top: 4px double red;
+    border-right: 2px solid #666666;
+    border-bottom: 6px dashed darkviolet;
+    border-left: 1px dotted #00ee44;
+    padding-top: .1em;
+    padding-right: .2em;
+    padding-bottom: 0.1em;
+    padding-left: .3em;
+    /* 
+    border and padding in one line
+    border: 5px solid red;
+    padding: .1em .2em 0 .3em;    
+    */
+}
+/* this is an ID */
+p#mission-statement {
+    font-family: “Times New Roman”, Times, serif;
+    font-size: 1.2em;
+    color: darkblue;
+    }
+    /* This is Division : breaking of webpage in section */
+div#midpage {
+    margin: 0 3em 0 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,29 @@
+th, td {
+    border: 1px solid black;
+    padding: .2em;
+    /* padding: .25em 1.5em 0 1.5em; */
+    width: 20%;
+    vertical-align: bottom;
+}
+th {
+    text-align: right;
+}
+table {
+    /* border-collapse: collapse;  */
+    border-spacing: .2em;
+    /* width: 75%; */
+}
+table#spl th {
+    border: none;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    
+}
+table#spl {
+    border-collapse: collapse;   
+    border: none;
+}
+table#spl td{
+    border: none;
+}
+    

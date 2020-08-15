@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms chp 49 to 58</title>
+        <link rel="stylesheet" type="text/css" href="css/form.css">
+    </head>
+    <body>
+    <form action="send-email.php" method="post">
+        <fieldset class="fieldset-auto-width">
+            <legend>Contact info</legend>
+            <label for="nam">Last name:</label>
+                <input id="nam" type="text" name="surname" size="25" maxlength="40">
+            <label>First name:
+                <input type="text" name="fname" size="25" maxlength="40">
+            </label>
+            <br><br>
+            <label>email:
+                <input type="email" name="email" size="25" maxlength="40">
+            </label>
+            <label>Password:
+                <input type="password" name="pass" size="25" maxlength="40">
+            </label>
+            <br>Message:<br>
+            <label>
+                <textarea name="message" rows="4" cols="30"></textarea><br>
+            </label>
+        </fieldset>
+        <br><br>
+        <fieldset class="fieldset-auto-width">
+            <legend>Question</legend>
+            How did you find us?<br>
+            <label><input type="radio" name="foundthru" value="Google" checked="checked"> Google</label>
+            <label><input type="radio" name="foundthru" value="Rew"> Review</label>
+            <input id="found" type="radio" name="foundthru" value="Frd"> <label for="found">Friend</label>
+            <br><br>
+            Values is:
+            <input type="text" value="foundthru" size="25" maxlength="40"> <br>
+            <br><br>
+            How would you describe our site?<br>
+            <label><input type="checkbox" name="feedback" value="Wonderful" checked="checked"> Wonderful</label>
+            <label><input type="checkbox" name="feedback" value="Fabulous"> Fabulous</label>
+            <label><input type="checkbox" name="feedback" value="Brilliant"> Brilliant</label>
+            <br><br>
+            Your state:<br>
+            <select name="current-state">
+                <option value="AL">Alabama</option>
+                <option value="AK" selected="selected">Alaska</option>
+                <option value="AZ">Arizona</option>
+            </select>
+            <br><br>
+            <input type="submit" value="send message"><br>
+            <input type="image" src="picture/heart.png" alt="Sign up" width="72" height="58">
+        </fieldset>
+    </form>
+    </body>
+</html> 

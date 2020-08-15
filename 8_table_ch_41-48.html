@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Chap 41-48</title>
+        <link rel="stylesheet" type="text/css" href="css/table.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Row 1, column 1</td>
+                <td>Row 1, column 2</td>
+                <td>Saloo bhai</td>
+            </tr>
+            <tr>
+                <td>Row 2, column 1</td>
+                <td>Row 2, column 2</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td>Row 1, column 1</td>
+                <td>Row 1, column 2</td>
+                <td>Saloo bhai</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Row 2, column 2</td>
+            </tr>
+        </table>
+        <br>
+        <table id="spl">
+            <tr>
+                <th class="top-row" scope="col">Doggie</th>
+                <th class="top-row" scope="col">Cat</th>
+            </tr>
+            <tr>
+                <td>Canine</td>
+                <td>Feline</td>
+            </tr>
+            <tr>
+                <td>Bark</td>
+                <td>Meow</td>
+            </tr>
+            <tr>
+                <td>Puppy</td>
+                <td>Kitten</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th scope="row">Species</th>
+                <td>Canine</td>
+                <td>Feline</td>
+            </tr>
+            <tr>
+                <th scope="row">Sound</th>
+                <td>Bark</td>
+                <td>Meow</td>
+            </tr>
+            <tr>
+                <th scope="row">Immature</th>
+                <td>Puppy</td>
+                <td>Kitten</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Dog</th>
+                <th scope="col">Cat</th>
+            </tr>
+            <tr>
+                <th scope="row">Species</th>
+                <td>Canine</td>
+                <td>Feline</td>
+            </tr>
+            <tr>
+                <th scope="row">Sound</th>
+                <td>Bark</td>
+                <td>Meow</td>
+            </tr>
+            <tr>
+                <th scope="row">Immature</th>
+                <td>Puppy</td>
+                <td>Kitten</td>
+            </tr>
+        </table>
+        <br>
+        <table bgcolor="green">
+            <tr bgcolor="red">
+                <td></td>
+                <th scope="col">Jeddah</th>
+                <th scope="col">Karachi</th>
+            </tr>
+            <tr bgcolor="grey">
+                <th scope="row">Salman</th>
+                <td>Tooba</td>
+                <td>Home</td>
+            </tr>
+            <tr bgcolor="grey">
+                <th scope="row">Aman</th>
+                <td>Umrah</td>
+                <td>Marium</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">1 pm</th>
+                <th scope="col">2 pm</th>
+                <th scope="col">3 pm</th>
+            </tr>
+            <tr>
+                <th scope="row">Gym</th>
+                <td>Dodge ball</td>
+                <td>Kick boxing</td>
+                <td>Sack racing</td>
+            </tr>
+            <tr>
+                <th scope="row">Exercise room</th>
+                <td>Spinning</td>
+                <td colspan="2" bgcolor="grey">Yoga marathon</td>
+            </tr>
+            <tr>
+                <th scope="row">Pool</th>
+                <td colspan="3" bgcolor="grey">Water polo</td>
+            </tr>
+        </table>
+        <br>        
+        <table>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Gym</th>
+                <th scope="col">Exercise Room</th>
+                <th scope="col">Pool</th>
+            </tr>
+            <tr>
+                <th scope="row">1 pm</th>
+                <td>Dodge ball</td>
+                <td>Spinning</td>
+                <td rowspan="3" bgcolor="grey">Water polo</td>
+            </tr>
+            <tr>
+                <th scope="row">2 pm</th>
+                <td>Kick boxing</td>
+                <td rowspan="2" bgcolor="grey">Yoga marathon</td>
+            </tr>
+            <tr>
+                <th scope="row">3 pm</th>
+                <td>Sack racing</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Gym</th>
+                    <th>Exercise Room</th>
+                    <th>Pool</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <th>3 activities</th>
+                    <th>2 activities</th>
+                    <th>1 activity</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <th scope="row">1 pm</th>
+                    <td>Dodge ball</td>
+                    <td>Spinning</td>
+                    <td rowspan="3" bgcolor="grey">Water polo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2 pm</th>
+                    <td>Spinning</td>
+                    <td rowspan="2" bgcolor="grey">Yoga marathon</td>
+                <tr>
+                    <th scope="row">3 pm</th>
+                    <td>Sack racing</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <TABLE border="1"
+          summary="This table gives some statistics about fruit
+                   flies: average height and weight, and percentage
+                   with red eyes (for both males and females).">
+            <CAPTION><EM>A test table with merged cells</EM></CAPTION>
+                <TR>
+                    <TH rowspan="2">
+                    <TH colspan="2">Average
+                    <TH rowspan="2">Red<BR>eyes
+                <TR>
+                    <TH>height
+                    <TH>weight
+                <TR>
+                    <TH>Males
+                    <TD>1.9
+                    <TD>0.003
+                    <TD>40%
+                <TR>
+                    <TH>Females
+                    <TD>1.7
+                    <TD>0.002
+                    <TD>43%
+        </TABLE>
+    </body>
+</html>

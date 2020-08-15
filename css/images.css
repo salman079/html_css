@@ -1,0 +1,23 @@
+/* to display in separate line */
+img.has-own-line {
+    display: block;
+}
+img.inset {
+    display: block;
+    margin-left: 10em;
+    }
+/* image centering */
+img.smack-in-the-middle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* alternate code for cetering an image >>> margin: 0 auto 0 auto; */
+}
+img.fl {
+    float: left;
+    margin-right: .5em;
+  }
+p.clr {
+    clear: both;
+}
+ 

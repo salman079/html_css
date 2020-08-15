@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Link Chap 29 to 36</title>
+        <link rel="stylesheet" type="text/css" href="css/link.css">
+    </head>
+    <body>
+        <p id="top"></p>
+        <a href="www.google.com">www.google.com</a><br>
+        <a href="grouping.html">Grouping.html</a><br>
+        <a href="inheritance.html">Inheritance.html</a><br>
+        <a href="#bottom">Goto bottom</a><br>
+        <a href="inheritance.html" target="_blank">Inheritance.html this will open in a new window</a><br>
+        <p id="openWindow">Hover open in new window. Tell me a little more about this.</p>
+        <script>
+            document.getElementById("openWindow").onmouseover = openWindow;
+            function openWindow() {
+            var w = window.open("grouping.html", "", "width=200,height=300,left=300,top=400");
+            } 
+        </script>
+        <a href="grouping.html" target="_blank"><img class="inset" src="picture/pic1.jpg" alt="scalled image" width="50" height="50"></a>
+        <a href="faq.html"><img src="images/button-faq.png" alt="Button linking to FAQ page" width="50" height="18"></a>
+        <a href="full-size-robin.html"><img class="flleft" src="images/thumbnail-1.jpg" alt="Robin" width="50" height="50"></a>
+        <a href="full-size-blue-jay.html"><img class="flleft" src="images/thumbnail-2.jpg" alt="Blue Jay" width="50" height="50"></a>
+        <a href="full-size-cardinal.html"><img class="flleft" src="images/thumbnail-3.jpg" alt="Cardinal" width="50"height="50"></a>
+        <a href="full-size-sparrow.html"><img class="flleft" src="images/thumbnail-4.jpg" alt="Sparrow" width="50" height="50"></a>
+        <a href="full-size-pigeon.html"><img class="flleft" src="images/thumbnail5.jpg" alt="Pigeon" width="50" height="50"></a>
+        <h3>Mapped image</h3><br>
+        <img src="http://www.asmarterwaytolearn.com/stooges.jpg" usemap="#stooges">
+        <map name="stooges">
+        <area shape="circle" alt="Moe" coords="56,56,47" href="https://www.google.com/?gws_rd=ssl#q=moe+3+stooges">
+        <area shape="circle" alt="Curly" coords="126,93,31" href="https://www.google.com/?gws_rd=ssl#q=curly+3+stooges">
+        <area shape="circle" alt="Larry" coords="208,66,39" href="https://www.google.com/?gws_rd=ssl#q=larry+3+stooges">
+        </map><br>
+        <a href="images.html#blockedimage"  target="_blank">go to images webpg on blocked images section</a>
+        <img src="picture/pic1.jpg">
+        <p id="bottom">This is the bottom of the page</p>
+        <a href="#top">back to top</a>
+</body>
+</html>

@@ -1,0 +1,33 @@
+/* Formatting list */
+ol.special {
+    margin: 0 1.5em 0 11.5em;
+    list-style-position: outside;
+}
+ul.special {
+    margin: 0 11.5em 0 1.5em;
+    list-style-position: inside;
+    list-style-type: circle;
+}
+ul.custom {
+    list-style-type: square;
+    /* ○ > circle  ■ > square. */
+}
+ul.pic {
+    /* list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif"); */
+    list-style-image: url('../picture/starsolid.gif');
+}
+ol.decimal_zero {
+    list-style-type: decimal-leading-zero;
+}
+ol.lower_alpha {
+    list-style-type: lower-alpha;
+}
+ol.upper_alpha {
+    list-style-type: upper-alpha;
+}
+ol.upper_roman {
+    list-style-type: upper-roman;
+}
+ol.upper_latin {
+    list-style-type: lower-roman;
+}

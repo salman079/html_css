@@ -1,0 +1,15 @@
+p.extra-special {
+    font-style: bold;
+}
+.special {
+    font-style: italic;
+    text-decoration: overline;
+}
+p#mission-statement {
+    font-family: “Times New Roman”, Times, serif;
+    font-size: 1.2em;
+    color: darkblue;
+    }
+#special {
+    font-size: 1.5em;
+    color: red}

@@ -1,0 +1,36 @@
+div#navbar {
+    clear: both;
+    width: 100%;
+} 
+div#navbar ul {
+    list-style-type: none;
+    /* padding-left: 0; */
+    }
+div#navbar ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .75em;
+    }
+div#navbar ul li {
+    /* padding: 0 1em .3em 1em; */
+    /* background-color: blue; */
+    /* margin: 0 0 .25em 0; */
+    text-align: center;
+    display: inline;
+    width: 19%;
+    float: left;
+    margin-right: .5em;
+}
+li.changeBackground {
+    background-color: blue;
+    }
+li.changeBackground:hover {
+    background-color: lightBlue;
+    }
+li.changeBackground:active {
+    background-color: darkBlue;
+    }
